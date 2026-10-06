@@ -1,0 +1,49 @@
+/* ================================
+   Login Page
+   ================================ */
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f6f9;
+}
+
+.login-container {
+    width: 400px;
+    max-width: 90%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 25px;
+}
+
+.login-container .form-group {
+    margin-bottom: 20px;
+}
+
+.login-container .btn {
+    width: 100%;
+    padding: 12px;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-footer a {
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
